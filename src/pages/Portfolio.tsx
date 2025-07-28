@@ -1,8 +1,29 @@
-import React from 'react';
-const Portfolio = () => {
-  return <div className="pt-20 min-h-screen">
-      <h1 className="text-center text-3xl font-bold mt-8">Portfolio Page</h1>
-      <p className="text-center text-gray-600 mt-4">Coming soon...</p>
-    </div>;
+// src/pages/Portfolio.tsx
+
+import React, { FC } from 'react';
+import PortfolioCard from '../components/PortfolioCard';
+import { portfolioItems } from '../utils/portfolioData';
+// import { portfolioItems } from '../data/portfolioData
+// ';
+// import { portfolioItems } from '../data/portfolioData'; // Import the portfolio items data
+
+const Portfolio: FC = () => {
+  return (
+    <div className="pt-20 min-h-screen bg-gray-100 p-6 md:p-8">
+      <h1 className="text-center text-4xl font-extrabold text-gray-900 mt-8 mb-4">
+        My Automotive Portfolio
+      </h1>
+      <p className="text-center text-lg text-gray-700 mb-12 max-w-2xl mx-auto">
+        Explore a selection of my published articles and in-depth features on various automotive topics. Click on any card to view the full PDF.
+      </p>
+
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {portfolioItems.map((item) => (
+          <PortfolioCard key={item.id} item={item} />
+        ))}
+      </div>
+    </div>
+  );
 };
+
 export default Portfolio;
