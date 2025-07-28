@@ -16,7 +16,7 @@ export interface Testimonial {
       author: "Jane Doe",
       title: "Chief Editor",
       company: "AutoMoto Journal",
-      image: "https://via.placeholder.com/100/FF5733/FFFFFF?text=JD", // Placeholder for Jane Doe
+      image: "https://www.arctus.com/wp-content/uploads/2023/03/3d-casual-life-young-man-sitting-with-a-laptop-and-waving-his-hand.png", // Placeholder for Jane Doe
     },
     {
       id: 't2',
@@ -24,7 +24,7 @@ export interface Testimonial {
       author: "John Smith",
       title: "Content Strategist",
       company: "GearHead Hub",
-      image: "https://via.placeholder.com/100/33FF57/FFFFFF?text=JS", // Placeholder for John Smith
+      image: "https://westernfinance.org/wp-content/uploads/speaker-3-v2.jpg", // Placeholder for John Smith
     },
     {
       id: 't3',
@@ -32,7 +32,7 @@ export interface Testimonial {
       author: "Emily White",
       title: "Marketing Manager",
       company: "SpeedForge Customs",
-      image: "https://via.placeholder.com/100/3357FF/FFFFFF?text=EW", // Placeholder for Emily White
+      image: "https://media.licdn.com/dms/image/v2/C4E03AQEwPO-fKSOBFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517613770803?e=2147483647&v=beta&t=bTwO1_zM29z95REAwIZcYCRSzw8Pof8UdvIkNndjYV8", // Placeholder for Emily White
     },
    
   ];

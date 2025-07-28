@@ -43,7 +43,7 @@ const Header = () => {
           }) => `font-medium transition-colors ${isActive ? 'text-red-600' : 'text-gray-700 hover:text-blue-800'}`}>
                 {item.name}
               </NavLink>)}
-            <a href="#" className="bg-red-600 text-white px-4 py-2 rounded font-medium hover:bg-red-700 transition-colors">
+            <a href="resume.docx" download className="bg-red-600 text-white px-4 py-2 rounded font-medium hover:bg-red-700 transition-colors">
               Resume
             </a>
           </nav>
@@ -60,7 +60,7 @@ const Header = () => {
           }) => `font-medium py-2 transition-colors ${isActive ? 'text-red-600' : 'text-gray-700 hover:text-blue-800'}`} onClick={() => setIsMenuOpen(false)}>
                   {item.name}
                 </NavLink>)}
-              <a href="#" className="bg-red-600 text-white px-4 py-2 rounded font-medium hover:bg-red-700 transition-colors text-center">
+              <a href="resume.docx" download className="bg-red-600 text-white px-4 py-2 rounded font-medium hover:bg-red-700 transition-colors text-center">
                 Resume
               </a>
             </div>
