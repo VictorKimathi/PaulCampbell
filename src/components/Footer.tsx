@@ -99,47 +99,7 @@ const Footer: FC = () => {
           </div>
 
           {/* Section 4: Connect & Newsletter */}
-          <div className="text-center md:text-left">
-            <h4 className="text-xl font-bold mb-4 text-red-400">Connect</h4>
-            <div className="flex space-x-4 justify-center md:justify-start mb-6">
-              {socialLinks.map((link) => {
-                const IconComponent = iconMap[link.icon];
-                return IconComponent ? (
-                  <a
-                    key={link.name}
-                    href={link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={link.name}
-                    className="text-gray-400 hover:text-red-300 transition-colors duration-200 transform hover:scale-110"
-                  >
-                    <IconComponent size={28} /> {/* Increased icon size */}
-                  </a>
-                ) : null;
-              })}
-            </div>
-
-            <div className="mt-6">
-              <h5 className="text-lg font-medium mb-3 text-red-400">Stay Updated</h5>
-              <form className="flex max-w-xs mx-auto md:mx-0">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  aria-label="Your email for newsletter"
-                  className="px-4 py-2 bg-gray-800 text-white rounded-l-lg focus:outline-none focus:ring-2 focus:ring-red-500 w-full placeholder-gray-500"
-                />
-                <button
-                  type="submit"
-                  className="bg-red-600 text-white px-5 py-2 rounded-r-lg hover:bg-red-700 transition-colors duration-200 font-semibold"
-                >
-                  Subscribe
-                </button>
-              </form>
-              <p className="text-gray-500 text-xs mt-2">
-                (Note: Newsletter subscription requires a backend service.)
-              </p>
-            </div>
-          </div>
+       
         </div>
 
         {/* Copyright Section */}

@@ -37,10 +37,5 @@ export interface QuickLink {
       { name: "Services", path: "/services" },
       { name: "Contact", path: "/contact" },
     ],
-    socialLinks: [
-      { name: "LinkedIn", url: "https://linkedin.com/in/paulcampbell", icon: "LinkedinIcon" },
-      { name: "Facebook", url: "https://facebook.com/paulcampbellwriter", icon: "FacebookIcon" },
-      { name: "Twitter", url: "https://twitter.com/paulcampbellauto", icon: "TwitterIcon" },
-      { name: "Instagram", url: "https://instagram.com/paulcampbellauto", icon: "InstagramIcon" },
-    ],
+
   };

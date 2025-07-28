@@ -32,7 +32,7 @@ export interface ExperienceItem {
   export const paulCampbellProfile: ProfileData = {
     name: "Paul Campbell",
     tagline: "Your Voice for the Automotive World.",
-    profileImage: "https://via.placeholder.com/400x400/8B0000/FFFFFF?text=Paul+Campbell", // Placeholder profile image
+    profileImage: "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg", // Placeholder profile image
     shortBio: "I craft compelling content that accelerates brands in the automotive industry. With a unique blend of mechanical insight and sharp storytelling, I bring engines, design, and driving to life for audiences who share our passion.",
     summary: "As an automotive copywriter with over three years of dedicated experience, my mission is to bridge the gap between complex technical details and captivating narratives. My work isn't just about words; it's about understanding the nuances of vehicle innovation, the history of iconic designs, and the thrill of the open road. I translate intricate drivetrain advancements, explore the cultural tapestry of street racing, and dissect emerging safety technologies into features that inform, entertain, and genuinely connect with enthusiasts and new drivers alike. Backed by hands-on mechanical understanding, I offer a unique perspective that ensures authenticity and authority in every piece.",
     address: "8641 N Kansas Ave, Kansas City, MO 64156",
