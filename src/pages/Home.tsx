@@ -7,7 +7,7 @@ import Newsletter from '../components/Newsletter';
 const Home = () => {
   return <div className="min-h-screen">
       <Hero />
-      <FeaturedWork />
+      {/* <FeaturedWork /> */}
       <Stats />
       <ValueProposition />
       <Newsletter />
