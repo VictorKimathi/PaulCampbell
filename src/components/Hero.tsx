@@ -23,11 +23,11 @@ const Hero = () => {
             Automotive Copywriter & Former Mechanic
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="#featured-work" className="bg-red-600 text-white px-6 py-3 rounded font-medium hover:bg-red-700 transition-colors flex items-center justify-center sm:justify-start">
+            <a href="portfolio" className="bg-red-600 text-white px-6 py-3 rounded font-medium hover:bg-red-700 transition-colors flex items-center justify-center sm:justify-start">
               Explore My Work
               <ArrowRightIcon size={18} className="ml-2" />
             </a>
-            <a href="#" className="bg-white/10 backdrop-blur-sm text-white border border-white/30 px-6 py-3 rounded font-medium hover:bg-white/20 transition-colors flex items-center justify-center sm:justify-start">
+            <a href="resume.docx" download className="bg-white/10 backdrop-blur-sm text-white border border-white/30 px-6 py-3 rounded font-medium hover:bg-white/20 transition-colors flex items-center justify-center sm:justify-start">
               Download Resume
               <DownloadIcon size={18} className="ml-2" />
             </a>
