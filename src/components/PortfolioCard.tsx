@@ -27,6 +27,9 @@ const PortfolioCard: FC<PortfolioCardProps> = ({ item }) => {
         <p className="text-gray-600 text-sm leading-relaxed">
           {item.description}
         </p>
+        <button className="mt-4 bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors duration-300">
+        <span className="text-sm font-medium">View PDF</span>
+        </button>
       </div>
     </a>
   );
