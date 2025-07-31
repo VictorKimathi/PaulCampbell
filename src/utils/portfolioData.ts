@@ -24,7 +24,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Masculinity in Truck Ads: Out of Touch or Just Playing Tough?',
     description:
       'Truck ads have clung to one idea for decades: that masculinity is something you prove by towing a mountain, staring down danger, and avoiding any sign of weakness. It\'s not subtle, and it\'s not meant to be. Whether it’s a dust-covered cowboy or a dad with a thousand-yard stare and a power drill, the formula rarely changes. These ads don’t just sell trucks. They sell toughness as identity.',
-    pdfLink: 'Masculinity_in_Truck_Ads_Out_of_Touch_or_Just_Playing_Tough.pdf',
+    pdfLink: 'Masculinity _in_Truck_Ads_Out_of_Touch_or_Just_Playing_Tough.pdf',
   },
   {
     id: '3',
@@ -33,6 +33,6 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Car Names That Should’ve Been Laughed Out of the Room',
     description:
       'Some of the worst car names in automotive history were not accidents. They were pitched in meetings, vetted by legal, pushed by marketing, and approved at the highest levels. Entire teams signed off on names they thought sounded bold or forward-thinking. What left the boardroom as a branding win often landed on the dealership floor as a joke. The car stayed the same. What changed was how people talked about it.',
-    pdfLink: 'Car_Names_That_Shouldve_Been_Laughed_Out_of_the_Room.pdf',
+    pdfLink: 'Car_Names_That_Should’ve_Been_Laughed_Out_of_the_Room.pdf',
   },
 ];
