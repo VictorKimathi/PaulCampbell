@@ -13,7 +13,7 @@ export interface Testimonial {
     {
       id: 't1',
       quote: "Paul consistently delivers high-quality, insightful automotive content. His deep understanding of the industry, combined with a clear and engaging writing style, makes him an invaluable asset to any editorial team.",
-      author: "Jane Doe",
+      author: "Hailey Dennis",
       title: "Chief Editor",
       company: "AutoMoto Journal",
       image: "https://www.arctus.com/wp-content/uploads/2023/03/3d-casual-life-young-man-sitting-with-a-laptop-and-waving-his-hand.png", // Placeholder for Jane Doe
@@ -21,7 +21,7 @@ export interface Testimonial {
     {
       id: 't2',
       quote: "Working with Paul was a breeze. He's incredibly professional, hits deadlines, and truly grasps complex technical concepts, translating them into compelling narratives that resonate with our audience.",
-      author: "John Smith",
+      author: "Jared Anderson",
       title: "Content Strategist",
       company: "GearHead Hub",
       image: "https://westernfinance.org/wp-content/uploads/speaker-3-v2.jpg", // Placeholder for John Smith
