@@ -1,7 +1,8 @@
 // src/components/PortfolioCard.tsx
 
 import React, { FC } from 'react';
-import { PortfolioItem } from '../utils/portfolioData';
+import { PortfolioItem } from '../utils/data';
+
 // import { PortfolioItem } from '../data/portfolioData'; // Import the interface
 
 interface PortfolioCardProps {

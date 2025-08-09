@@ -2,7 +2,8 @@
 
 import React, { FC } from 'react';
 import PortfolioCard from '../components/PortfolioCard';
-import { portfolioItems } from '../utils/portfolioData';
+import { portfolioItems } from '../utils/data';
+
 // import { portfolioItems } from '../data/portfolioData
 // ';
 // import { portfolioItems } from '../data/portfolioData'; // Import the portfolio items data

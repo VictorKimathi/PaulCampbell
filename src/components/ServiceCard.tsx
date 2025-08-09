@@ -1,7 +1,8 @@
 // src/components/ServiceCard.tsx
 
 import React, { FC } from 'react';
-import { Service } from '../data/servicesData';
+import { Service } from '../utils/data';
+
 
 interface ServiceCardProps {
   service: Service;

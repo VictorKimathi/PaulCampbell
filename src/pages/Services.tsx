@@ -2,7 +2,8 @@
 
 import React, { FC } from 'react';
 import ServiceCard from '../components/ServiceCard';
-import { servicesData } from '../utils/servicesData';
+import { servicesData } from '../utils/data';
+
 // import { servicesData } from '../data/servicesData'; // Import your dummy data
 
 const Services: FC = () => {

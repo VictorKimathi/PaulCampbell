@@ -11,9 +11,10 @@ import {
   InstagramIcon,
   LucideIcon // Import LucideIcon type
 } from 'lucide-react'; // Ensure lucide-react is installed
+import { footerContent } from '../utils/data';
 
 // import { footerContent } from '../data/footerData'; // Import the footer data
-import { footerContent } from '../utils/footerData'; // Adjust the import path as necessary
+ // Adjust the import path as necessary
 // Map string icon names to actual Lucide React components
 const iconMap: { [key: string]: LucideIcon } = {
   LinkedinIcon: LinkedinIcon,

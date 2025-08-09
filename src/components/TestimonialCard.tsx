@@ -1,7 +1,8 @@
 // src/components/TestimonialCard.tsx
 
 import React, { FC } from 'react';
-import { Testimonial } from '../data/testimonialsData';
+import { Testimonial } from '../utils/data';
+
 
 interface TestimonialCardProps {
   testimonial: Testimonial;

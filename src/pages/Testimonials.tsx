@@ -2,7 +2,8 @@
 
 import React, { FC } from 'react';
 import TestimonialCard from '../components/TestimonialCard';
-import { testimonialsData } from '../utils/testimonialsData';
+import { testimonialsData } from '../utils/data';
+
 // import { testimonialsData } from '../data/testimonialsData'; // Import your dummy data
 
 const Testimonials: FC = () => {
